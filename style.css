@@ -124,3 +124,12 @@ li {
 	color: #333;
 }
 
+@media screen and (max-width: 800px) {
+
+	/* EDIT BODY */
+
+	body {
+		background-image: url("img/bg-w2.png");
+        background-size: auto;
+	}
+}
