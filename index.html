@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <meta http-equiv="refresh" content="">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="corpo">
+        <div class="caixa-bn">
+            <h1>Tarefas do Dia</h1>
+            <div class="data">
+                <script>
+                    date = new Date().toLocaleDateString();
+                    document.write(date);
+                </script>
+            </div>
+        </div>
+        <section class="app-insert">
+            <input type="text" name="task" maxlength="50" placeholder="Adicione uma nova tarefa...">
+        </section>
+        <section class="app-list">
+            <ul></ul>
+        </section>
+    </div>
+    <footer class="rodape">Desenvolvido por @luucasviana</footer>
+    <script src="script.js"></script>
+</body>
+</html>
